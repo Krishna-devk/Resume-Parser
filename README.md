@@ -1,23 +1,5 @@
 📄 AI-Powered Resume Parser
 An intelligent web application that transforms unstructured resume documents into clean, structured JSON data using the power of Large Language Models.
-
-Table of Contents
-Overview
-
-Features
-
-Tech Stack
-
-Live Demo / Screenshot
-
-Setup and Installation
-
-How to Run
-
-How It Works
-
-Future Improvements
-
 Overview
 In the world of recruitment, manually sifting through hundreds of resumes is a time-consuming, repetitive, and often biased process. This project offers a modern solution by leveraging AI to automate the initial screening stages.
 
@@ -49,40 +31,26 @@ LLM Hosting: Ollama (for running models like DeepSeek, Llama3, etc., locally)
 
 Document Loaders: PyPDFLoader, Docx2txtLoader, TextLoader
 
-Live Demo / Screenshot
-A quick look at the user interface.
-
-<!-- It's highly recommended to replace this with your own screenshot! -->
-
 Setup and Installation
 Follow these steps to get the project running on your local machine.
 
 1. Clone the Repository
 
 git clone https://github.com/Krishna-devk/Resume-Parser.git
+
 cd Resume-Parser
 
 2. Create a Virtual Environment (Recommended)
 
 # For Windows
 python -m venv .venv
+
 .\.venv\Scripts\activate
 
 # For macOS/Linux
 python3 -m venv .venv
+
 source .venv/bin/activate
-
-3. Install Dependencies
-Create a requirements.txt file with the following content:
-
-streamlit
-langchain
-langchain-community
-ollama
-pypdf
-docx2txt
-
-Then, install the packages:
 
 pip install -r requirements.txt
 
